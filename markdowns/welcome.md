@@ -7,7 +7,9 @@ The source code is on [GitHub](https://github.com/TechDotIO/java-template), plea
 
 # Hands-on Demo
 
-@[Luke, how many stars are there in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
+
+
+@[Hello World Example]({"stubs": ["src/main/java/com/mydevgeek/Main.java"], "command": "javac Main.java && java Main"})
 
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/java-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
