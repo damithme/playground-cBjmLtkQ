@@ -10,6 +10,21 @@ Singleton Design Pattern is one of GOF (Gang of Four) design pattern. It comes u
 @[How to create it.]({"stubs": ["src/main/java/com/mydevgeek/Singleton.java"],"command": "com.mydevgeek.SingletonTest#singletonTest"})
 
 How to call the singleton instance.
+```java
+  Singleton.INSTANCE.doProcess();
+```
+
+This is the simple test case for verifying single instance use for each initialization.   
+```java
+@Test
+public void singletonTest() {
+  Singleton.INSTANCE.setCount(1);
+  Singleton.INSTANCE.setCount(2);
+  Singleton.INSTANCE.doProcess();
+  Singleton.INSTANCE.doProcess();
+  Singleton.INSTANCE.doProcess();
+}
+```
 
 Joshua Bloch explained using an Enum in his Effective Java Reloaded talk at Google I/O 2008.
 
