@@ -8,9 +8,6 @@ The source code is on [GitHub](https://github.com/TechDotIO/java-template), plea
 # Hands-on Demo
 
 
-
-@[Hello World Example]({"stubs": ["src/main/java/com/mydevgeek/Main.java"], "command": "javac Main.java && java Main"})
-
 @[Fix the following code so that the function DoSum returns a sum of integer]({"stubs": ["src/main/java/com/mydevgeek/Singleton.java"],"command": "SingletonTest#singletonTest"})
 
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/java-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
