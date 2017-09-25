@@ -1,8 +1,8 @@
-# Design Pattern – Singleton using Enum
+# h1 Design Pattern – Singleton using Enum
 
 Singleton Design Pattern is one of GOF (Gang of Four) design pattern. It comes under creational patterns. The main idea behind the Singleton is, create only one object of a specific class is ever created. There are couple of ways to implement the Singleton design pattern in Java with their own pros and cons. But the easiest way is using Enum in Java.
 
-# There are 2 type of initialization
+## h2 There are 2 type of initialization
 1.Eager initialization – create an instance when initialize. It might be not required at that moment.
 2.Lazy initialization – create an instance when required.
 
@@ -13,13 +13,13 @@ How to call the singleton instance.
 
 Joshua Bloch explained using an Enum in his Effective Java Reloaded talk at Google I/O 2008.
 
-##Pros
+### h3 Pros
 
-1.An Instance is thread-safe.
-2.Easy to implement.
++An Instance is thread-safe.
++Easy to implement.
 
-##Cons
+### h3 Cons
 
-1.Not create an instance when required (Eager initialization)
++Not create an instance when required (Eager initialization)
 
 Original post find it here :- http://mydevgeek.com/design-pattern-singleton-using-enum/
